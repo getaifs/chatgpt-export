@@ -14,22 +14,24 @@ This enables Claude to write accurate, custom parsing scripts tailored to your s
 
 ## Installation
 
-### Option 1: Copy to Personal Skills (Recommended)
+### Option 0: Ask Claude Code
 
-```bash
-# Clone this repository
-git clone https://github.com/anthropics/docs-for-agents.git
-
-# Copy the skill to your Claude Code skills directory
-cp -r docs-for-agents/skills/chatgpt-export ~/.claude/skills/
+```
+Install the chatgpt-export skill from https://github.com/getaifs/chatgpt-export
 ```
 
-### Option 2: Copy to Project Skills
-
-For project-specific use, copy to your project's `.claude/skills/` directory:
+### Option 1: Clone to Personal Skills (Recommended)
 
 ```bash
-cp -r docs-for-agents/skills/chatgpt-export /path/to/your/project/.claude/skills/
+git clone https://github.com/getaifs/chatgpt-export.git ~/.claude/skills/chatgpt-export
+```
+
+### Option 2: Clone to Project Skills
+
+For project-specific use, clone to your project's `.claude/skills/` directory:
+
+```bash
+git clone https://github.com/getaifs/chatgpt-export.git /path/to/your/project/.claude/skills/chatgpt-export
 ```
 
 ## Usage
@@ -72,4 +74,4 @@ Contributions welcome! If you discover new fields or edge cases in ChatGPT expor
 
 ## License
 
-MIT License - See [LICENSE](../../LICENSE) for details.
+MIT License - See [LICENSE](LICENSE) for details.
